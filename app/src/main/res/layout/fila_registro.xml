@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardDatos"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="9">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvColFecha"
+            android:layout_width="60dp"
+            android:background="#EBEBEB"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="29/07"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvColPositivos"
+            android:layout_width="85dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="12"
+            android:textColor="#4CAF50"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvColNegativos"
+            android:layout_width="93dp"
+            android:background="#FFEBEBEB"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="0"
+            android:textColor="#4CAF50"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvColPortas"
+            android:layout_width="64dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="0"
+            android:textColor="#E91E1E"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvColDA"
+            android:layout_width="34dp"
+            android:background="#FFEBEBEB"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="1"
+            android:textColor="#E91E1E"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvColHoras"
+            android:layout_width="59dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="6"
+            android:textColor="#4CAF50"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvColCumplimiento"
+            android:layout_width="124dp"
+            android:background="#FFEBEBEB"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="100%"
+            android:textColor="#4CAF50"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvColRPH"
+            android:layout_width="46dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="2"
+            android:textColor="#4CAF50"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvColEfectividad"
+            android:layout_width="101dp"
+            android:background="#FFEBEBEB"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="100%"
+            android:textColor="#4CAF50"
+            android:textSize="14sp" />
+
+    </TableRow>
+
+</TableLayout>

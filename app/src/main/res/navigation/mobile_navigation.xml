@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_registros">
+
+    <fragment
+        android:id="@+id/navigation_registros"
+        android:name="com.vereeth.misgestiones.ui.registros.RegistrosFragment"
+        android:label="@string/title_registros"
+        tools:layout="@layout/fragment_registros" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_metricas"
+        android:name="com.vereeth.misgestiones.ui.metricas.MetricasFragment"
+        android:label="@string/title_metricas"
+        tools:layout="@layout/fragment_metricas" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_cuenta"
+        android:name="com.vereeth.misgestiones.ui.cuenta.CuentaFragment"
+        android:label="@string/title_cuenta"
+        tools:layout="@layout/fragment_cuenta" >
+    </fragment>
+</navigation>

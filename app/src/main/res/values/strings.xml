@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Mis Gestiones</string>
+    <string name="title_registros">Registros</string>
+    <string name="title_metricas">Métricas</string>
+    <string name="title_cuenta">Cuenta</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_registros"
+        android:icon="@drawable/ic_fragment_registros"
+        android:title="@string/title_registros" />
+
+    <item
+        android:id="@+id/navigation_metricas"
+        android:icon="@drawable/ic_fragment_metricas"
+        android:title="@string/title_metricas" />
+
+    <item
+        android:id="@+id/navigation_cuenta"
+        android:icon="@drawable/ic_fragment_cuenta"
+        android:title="@string/title_cuenta" />
+
+</menu>
